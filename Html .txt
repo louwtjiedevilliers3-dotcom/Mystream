@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stream Hub</title>
+<style>
+body {
+  margin:0;
+  background:#111;
+  color:white;
+  font-family:Arial;
+}
+
+header {
+  background:black;
+  padding:15px;
+  font-size:22px;
+  color:red;
+  font-weight:bold;
+}
+
+.section {
+  padding:10px 15px;
+  font-size:18px;
+}
+
+.row {
+  display:flex;
+  overflow-x:auto;
+  padding:10px 15px;
+}
+
+.card {
+  min-width:150px;
+  margin-right:10px;
+  background:#222;
+  border-radius:10px;
+  overflow:hidden;
+  text-align:center;
+}
+
+.card img {
+  width:100%;
+}
+
+.card p {
+  padding:5px;
+  margin:0;
+}
+</style>
+</head>
+<body>
+
+<header>My Stream Hub</header>
+
+<div class="section">🇿🇦 Afrikaans Movies</div>
+<div class="row">
+  <div class="card">
+    <img src="https://via.placeholder.com/150">
+    <p>Movie 1</p>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/150">
+    <p>Movie 2</p>
+  </div>
+</div>
+
+<div class="section">🇬🇧 English Series</div>
+<div class="row">
+  <div class="card">
+    <img src="https://via.placeholder.com/150">
+    <p>Series 1</p>
+  </div>
+</div>
+
+</body>
+</html>
